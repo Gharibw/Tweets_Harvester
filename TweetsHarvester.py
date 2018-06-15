@@ -102,7 +102,7 @@ def tweets_to_csv(tweets, filename='tweets'):
         writer.writerow(["User", "Tweet ID", "Time", "Text"])  # write header
         writer.writerows(tweets2csv)
 
-# specity a text to be removed from the tweets
+# specify a text to be removed from the tweets
 def clean_tweets(tweets, trash_txt=''):
     clean_tweets = []
     for tweet in tweets:
